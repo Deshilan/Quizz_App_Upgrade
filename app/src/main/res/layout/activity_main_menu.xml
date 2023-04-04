@@ -4,6 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main_menu">
+    tools:context=".Main_menu"
+    tools:layout_editor_absoluteX="-1dp"
+    tools:layout_editor_absoluteY="120dp">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context=".Main_menu"
+        tools:layout_editor_absoluteY="25dp">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="318dp"
+            android:layout_height="93dp"
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="567dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="318dp"
+            android:layout_height="93dp"
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="280dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="318dp"
+            android:layout_height="93dp"
+            android:text="Button"
+            tools:layout_editor_absoluteX="46dp"
+            tools:layout_editor_absoluteY="427dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
