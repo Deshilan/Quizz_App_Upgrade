@@ -3,7 +3,9 @@
     <string name="email">Write your email…</string>
     <string name="password">write your password…</string>
     <string name="welcome_to_quizzapp">Welcome to QuizzApp!</string>
+    <string name="Do_login_butt">Login me</string>
     <string name="To_login_butt">To Login</string>
+    <string name="Do_registration_butt">Register me</string>
     <string name="To_registration_butt">To Registration</string>
     <string name="button_reg">Register me</string>
     <string name="registration_button">Registration</string>

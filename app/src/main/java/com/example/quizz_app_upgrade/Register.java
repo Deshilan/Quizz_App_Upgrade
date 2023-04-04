@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
@@ -36,12 +37,20 @@ public class Register extends AppCompatActivity {
         EditText registerpassword = findViewById(R.id.registerpassword);
         EditText registeremail = findViewById(R.id.registeremail);
         Button Registerbutt = findViewById(R.id.registration_button);
+        Button To_login = findViewById(R.id.to_login);
         String email, password, nick;
 
         email = registeremail.getText().toString();
         password = registerpassword.getText().toString();
         nick = registernick.getText().toString();
 
+        To_login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent switchActivityIntent = new Intent(Register.this, Login.class);
+                startActivity(switchActivityIntent);
+            }
+        });
 
         Registerbutt.setOnClickListener(new View.OnClickListener() {
 

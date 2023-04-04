@@ -45,7 +45,7 @@
             android:layout_height="82dp"
             android:layout_marginStart="36dp"
             android:layout_marginBottom="36dp"
-            android:text="@string/To_registration_butt"
+            android:text="@string/Do_registration_butt"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 

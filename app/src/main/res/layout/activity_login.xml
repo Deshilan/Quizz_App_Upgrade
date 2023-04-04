@@ -19,24 +19,24 @@
             android:id="@+id/textView2"
             android:layout_width="171dp"
             android:layout_height="22dp"
-            android:layout_marginStart="120dp"
-            android:layout_marginTop="197dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="72dp"
             android:text="@string/welcome_to_quizzapp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/Do_login_butt"
             android:layout_width="145dp"
             android:layout_height="82dp"
             android:layout_marginStart="36dp"
             android:layout_marginBottom="36dp"
-            android:text="@string/To_login_butt"
+            android:text="@string/Do_login_butt"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/To_registration_butt_in_login"
             android:layout_width="154dp"
             android:layout_height="80dp"
             android:layout_marginEnd="36dp"
@@ -49,8 +49,8 @@
             android:id="@+id/Login_email"
             android:layout_width="254dp"
             android:layout_height="72dp"
-            android:layout_marginStart="76dp"
-            android:layout_marginTop="279dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="128dp"
             android:autofillHints=""
             android:ems="10"
             android:hint="@string/email"
@@ -60,11 +60,11 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/password"
+            android:id="@+id/Login_pswd"
             android:layout_width="254dp"
             android:layout_height="72dp"
-            android:layout_marginStart="76dp"
-            android:layout_marginTop="395dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="248dp"
             android:autofillHints=""
             android:ems="10"
             android:hint="@string/password"
