@@ -9,6 +9,10 @@
     <string name="To_registration_butt">To Registration</string>
     <string name="button_reg">Register me</string>
     <string name="registration_button">Registration</string>
+    <string name="Main_menu_textView">Now You are logged in! Select what do You want to do. </string>
+    <string name="main_menu_to_do_quiz">Take quiz</string>
+    <string name="main_menu_to_make_quiz">Make quiz</string>
+    <string name="Log_out">Log out</string>
     <!-- Strings used for fragments for navigation -->
     <string name="nickname">Write your nickname…</string>
     <string name="welcome_text">QuizzApp, as the name suggests, is for solving quizzes. However, it gives much wider possibilities: you can not only solve them, but also create and compete with other users. Register and check now!</string>

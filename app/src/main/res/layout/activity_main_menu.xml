@@ -18,31 +18,51 @@
         tools:layout_editor_absoluteY="25dp">
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/main_menu_log_out"
             android:layout_width="318dp"
             android:layout_height="93dp"
-            android:text="Button"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.494"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="567dp" />
+            android:layout_marginStart="49dp"
+            android:layout_marginBottom="66dp"
+            android:text="@string/Log_out"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/main_menu_to_do_quiz"
             android:layout_width="318dp"
             android:layout_height="93dp"
-            android:text="Button"
+            android:layout_marginStart="46dp"
+            android:layout_marginBottom="356dp"
+            android:background="#FF0000"
+            android:text="@string/main_menu_to_do_quiz"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.494"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="280dp" />
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/main_menu_to_make_quiz"
             android:layout_width="318dp"
             android:layout_height="93dp"
-            android:text="Button"
-            tools:layout_editor_absoluteX="46dp"
-            tools:layout_editor_absoluteY="427dp" />
+            android:layout_marginStart="46dp"
+            android:layout_marginBottom="211dp"
+            android:text="@string/main_menu_to_make_quiz"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/Main_menu_textView"
+            android:layout_width="306dp"
+            android:layout_height="198dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="64dp"
+            android:text="@string/Main_menu_textView"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
