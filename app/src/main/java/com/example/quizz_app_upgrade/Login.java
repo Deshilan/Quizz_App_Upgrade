@@ -22,7 +22,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class Login extends AppCompatActivity {
 
-    FirebaseAuth mAuth;
+    FirebaseAuth mAuth = FirebaseAuth.getInstance();
     FirebaseUser mUser;
     TextInputEditText editpswd, editemail;
 
